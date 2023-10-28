@@ -1,7 +1,7 @@
 package Pokemon;
 
 public class charizard extends Pokemon{
-    private Tipo tipo1 = Tipo.FUEGO, tipo2= Tipo.VOLADOR;
+    private Tipo tipo = Tipo.FUEGO, tipo= Tipo.VOLADOR;
 
     public charizard(String nombre, int nivel){
         super(nombre, nivel, 78,84,78,100,109,85);
