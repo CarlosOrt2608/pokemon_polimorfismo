@@ -1,7 +1,7 @@
 package Pokemon;
 
 public class lapras extends Pokemon{
-    private Tipo tipo = Tipo.HIELO, tipo= Tipo.AGUA;
+    private Tipo tipo1 = Tipo.HIELO, tipo2 = Tipo.AGUA;
 
     public lapras(String nombre, int nivel){
         super(nombre, nivel,130,85,80,60,85,95);
